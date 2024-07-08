@@ -1,0 +1,27 @@
+{
+    "name": "forumkit/docs",
+    "description": "It allows you to write documents.",
+    "keywords": ["docs","forumkit"],
+    "type": "forumkit-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/forumkit/docs/",
+    
+    "require": {
+        "forumkit/core": "dev-main"
+    },
+
+    "extra": {
+        "forumkit-extension": {
+            "title": "Docs",
+            "category": "feature",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#10d876",
+                "backgroundSize": "100%",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center",
+                "color": "#fff"
+            }
+        }
+    }
+}
