@@ -17,7 +17,7 @@
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#10d876",
-                "backgroundSize": "100%",
+                "backgroundSize": "50%",
                 "backgroundRepeat": "no-repeat",
                 "backgroundPosition": "center",
                 "color": "#fff"
