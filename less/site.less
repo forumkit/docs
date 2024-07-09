@@ -1,0 +1,57 @@
+h2 {
+    margin-top: 0;
+}
+.DocsBox{
+    margin-top: 0px;
+}
+
+.DocsPage{
+    display: flex;
+    gap: 20px;
+}
+
+.DocsLeft{
+    width: 230px;
+    padding-top: 20px;
+    border-right: solid 1px var(--control-bg);
+    border-radius: var(--border-radius)
+}
+.DocsLeft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .DocsLeft li a{
+    padding: 5px 20px;
+    color: var(--sidenav-color, var(--muted-color));
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    background: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: none;
+    text-align: left;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .DocsLeft li a:hover {
+    background: none;
+    color: var(--sidenav-color-hover, var(--link-color));
+    text-decoration: none;
+  }
+  .DocsLeft li.active a {
+    background: none;
+    color: var(--sidenav-color-active, var(--primary-color));
+    font-weight: bold
+}
+
+.DocsRight{
+    flex: 1;
+    min-width: 0;
+    padding-top: 20px;
+}

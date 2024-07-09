@@ -7,3 +7,8 @@ composer require forumkit/docs *@dev
 ```
 
 完成后，继续在网站的管理后台页面上启动它。
+
+## 删除扩展
+```sh
+composer remove forumkit/docs
+```
