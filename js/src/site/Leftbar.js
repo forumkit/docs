@@ -5,7 +5,7 @@ import LinkButton from 'forumkit/common/components/LinkButton';
 
 
 export default function () {
-    extend(IndexPage.prototype, 'LeftItems', (items) => {
+    extend(IndexPage.prototype, 'CustomItems', (items) => {
 
       items.add(
         'docs',

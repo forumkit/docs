@@ -17,7 +17,7 @@ export default class Docs extends Page {
                     <div className="DocsPage">
 
                         <div className="DocsLeft">
-                            <ul>{listItems(IndexPage.prototype.LeftItems().toArray())}</ul>
+                            <ul>{listItems(IndexPage.prototype.CustomItems().toArray())}</ul>
                         </div>
 
                         <div className="DocsRight">

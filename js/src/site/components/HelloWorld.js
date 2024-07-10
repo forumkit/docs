@@ -16,7 +16,7 @@ export default class HelloWorld extends Page {
                   <div className="DocsPage">
 
                       <div className="DocsLeft">
-                          <ul>{listItems(IndexPage.prototype.LeftItems().toArray())}</ul>
+                          <ul>{listItems(IndexPage.prototype.CustomItems().toArray())}</ul>
                       </div>
 
                       <div className="DocsRight">
@@ -36,7 +36,7 @@ export default class HelloWorld extends Page {
         <article>
             <h2>你好世界</h2>
 
-            <p>以有趣的方式创建社区的</p>
+            <p>现代、快速和有趣的方式创建社区</p>
         </article>
     );
   }
